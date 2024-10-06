@@ -1,0 +1,36 @@
+/* frontend/src/components/SeatReservation.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seat-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.seat {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booked {
+    background-color: red;
+}
+
+.row {
+    display: flex;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
